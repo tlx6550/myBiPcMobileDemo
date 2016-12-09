@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>biPcMobile</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/flatpickr/2.2.4/flatpickr.min.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/3.2.1/font/fontawesome-webfont.svg">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <!--[if IE 7]>
+   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css">
+   <![endif]-->
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  <!--   /*ie低版本兼容问题*/ -->
+    <!--[if lte IE 8]>
+    <style>
+    .main{padding-left:40px;}
+    .sidebar {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+
+    
+      <nav class="navbar bi-director navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bi-phone-navbar" aria-expanded="false" aria-controls="navbar" id="right-top-button">
+            <span class="icon-reorder"></span>
+          </button>
+          <span class="navbar-brand" id="navbar-brand" >董事局门户</span>
+              <!--[if lt IE 9]>
+              <p class="browserupgrade">您正在使用 <strong>低版本的</strong> 浏览器. 点击这里 <a href="http://browsehappy.com/">升级您的浏览器</a> 以获得更好的体验</p>
+            <![endif]-->
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-2 bi-director-left sidebar">
+          <div class="nav nav-sidebar navbar-collapse collapse" aria-expanded="false" id="bi-phone-navbar">
+            <div class="dataPick">
+           <!--  http://www.htmleaf.com/jQuery/Calendar-Date-Time-picker/201608213894.html -->
+              <input id="flatpickr-tryme" placeholder="请选择时间" data-date-format="Y-m-d">  
+            </div>
+            <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="icon-folder-close left-first-leve-icon"></i>
+                  <a>董事局事项</a>
+                </span>
+
+                <ul class="second-leve-ul">
+                  <li><i class="icon-folder-open-alt left-second-leve-icon"></i><a href="/1111.html" data-id="11">1.1珠江股份集团</a></li>
+                  <li><i class="icon-folder-open-alt left-second-leve-icon"></i><a href="/2222.html" data-id="22">1.2合生集团公告</a></li>
+                  <li><i class="icon-folder-open-alt left-second-leve-icon"></i><a href="/3333.html" data-id="33">1.3珠江股份集团</a></li>
+                  <li><i class="icon-folder-open-alt left-second-leve-icon"></i><a href="/4444.html" data-id="44">1.4合生集团公告</a></li>
+                </ul>
+             </div>
+
+            <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="icon-folder-close left-first-leve-icon"></i>
+                  <a>珠江投资股份集团</a>
+                </span>
+
+                <ul class="second-leve-ul">
+                    <li>
+                      <i class="icon-folder-open-alt left-second-leve-icon"></i>
+                      <a>2.1珠江股份集团公告</a>
+                    </li>
+                    <ul class="third-leve-ul">
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.1经营指标分析1标分析</a></li>
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.2经营指标分析</a></li>
+                    </ul>
+                    <li>
+                      <i class="icon-folder-open-alt left-third-leve-icon"></i>
+                      <a>2.2合生集团公告</a>
+                    </li>
+                    <ul class="third-leve-ul">
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.1经营指标分析</a></li>
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.2经营指标分析</a></li>
+                    </ul>
+                 </ul>
+              </div>
+
+              <div class="first-leve-div">
+                <span class="active fisrt-leve-span" >
+                  <i class="icon-folder-close left-first-leve-icon"></i>
+                  <a>珠江投资股份集团</a>
+                </span>
+
+                <ul class="second-leve-ul">
+                    <li>
+                      <i class="icon-folder-open-alt left-second-leve-icon"></i>
+                      <a>2.1珠江股份集团公告</a>
+                    </li>
+                    <ul class="third-leve-ul">
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.1经营指标分析</a></li>
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.2经营指标分析</a></li>
+                    </ul>
+                    <li>
+                      <i class="icon-folder-open-alt left-third-leve-icon"></i>
+                      <a>2.2合生集团公告</a>
+                    </li>
+                    <ul class="third-leve-ul">
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.1经营指标分析</a></li>
+                        <li><i class="icon-file-alt left-third-leve-icon"></i><a>2.2经营指标分析</a></li>
+                    </ul>
+                 </ul>
+              </div>
+          </div>
+        </div>
+          <div class="page-header">
+            <button type="button" class="btn btn-default pull-left-btn pull-left-target">
+            <span class="icon-caret-left"></span>
+          </button>
+            <div class="bi-top-tabs">
+               <div class="btn-group pull-right tab-navigation">
+                <button type="button" class="btn btn-default" id="backwordbtn"><span class="icon-backward"></span></button>
+                <button type="button" class="btn btn-default" id="forwardbtn"><span class="icon-forward"></span></button>
+              </div>
+              <ul id="myTab" class="nav nav-pills" role="tablist">
+              </ul>
+
+            </div>
+          </div>
+        <div class="col-sm-9 col-md-9 col-lg-10 main">
+      <!--   <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 main"> -->
+          <i class="icon-caret-left pull-left-target" id="left-button-flex"></i>
+<!--           <div class="page-header">
+            <button type="button" class="btn btn-primary pull-left-btn pull-left-target">
+            <span class="icon-caret-left"></span>
+          </button>
+            <div class="bi-top-tabs">
+               <div class="btn-group pull-right tab-navigation">
+                <button type="button" class="btn btn-default" id="backwordbtn"><span class="icon-backward"></span></button>
+                <button type="button" class="btn btn-default" id="forwardbtn"><span class="icon-forward"></span></button>
+              </div>
+              <ul id="myTab" class="nav nav-pills" role="tablist">
+              </ul>
+
+            </div>
+          </div> -->
+
+          <div class="row " >
+             <div id="myTabContent" class="tab-content">
+<!--                 <div class="tab-pane fade in active" id="home">
+                    <iframe src="/1111.html" frameborder="0"  width="100%" height="100%"></iframe>
+                </div>
+                <div class="tab-pane fade" id="ios">
+                    <iframe src="/2222.html" frameborder="0"  width="100%" height="100%"></iframe>
+                </div> -->
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 模态框（Modal） -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" id="myModalBtn" data-dismiss="modal" aria-hidden="true">
+            &times;
+          </button>
+          <h4 class="modal-title" id="myModalLabel">
+            温馨提示
+          </h4>
+        </div>
+        <div class="modal-body">
+           /(ㄒoㄒ)/~~最多打开6个tab页，请关闭部分其他tab页!
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+  </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/flatpickr/2.2.4/flatpickr.min.js"></script>
+    <!-- 根据ie浏览器版本加入jq版本 -->
+    <!--[if lte IE 8]>
+      <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <![endif]-->
+    <!-- endbower -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
